@@ -4,7 +4,7 @@ const purchaseSchema = new Schema({
     shippingAddress: {
         type: String
     },
-    algum: {
+    album: {
         type: Schema.Types.ObjectId,
         ref: "Album"
     }
